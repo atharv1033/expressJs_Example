@@ -1,7 +1,7 @@
 var mongoose = require('mongoose')
 
 const cartScheme = new mongoose.Schema({
-    product_ids: Array[String],
+    product_ids: Array,
     quantity: Number
 });
 
